@@ -1,0 +1,38 @@
+{
+  "stickies": [],
+  "stickyPositions": [],
+  "plots": [
+    {
+      "variables": [
+        "summary.COP"
+      ],
+      "colors": {
+        "summary.COP": [
+          "#bcbd22"
+        ]
+      },
+      "x": -346.36438,
+      "y": 167.80676,
+      "width": 412.0,
+      "height": 300.0,
+      "title": "Plot 1"
+    },
+    {
+      "variables": [
+        "condenser.summary.Q_flow_sec"
+      ],
+      "colors": {
+        "condenser.summary.Q_flow_sec": [
+          "#aec7e8"
+        ]
+      },
+      "x": -342.95038,
+      "y": 23.930483,
+      "width": 400.0,
+      "height": 250.0,
+      "title": "Plot 3"
+    }
+  ],
+  "version": "1",
+  "name": "COP"
+}

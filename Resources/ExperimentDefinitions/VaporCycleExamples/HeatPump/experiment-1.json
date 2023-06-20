@@ -1,0 +1,34 @@
+{
+  "version": "1",
+  "id": "41eaa60014ee4225906c04700471739b",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 800.0
+            },
+            "simulationOptions": {},
+            "solverOptions": {
+              "rtol": 1e-07
+            },
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": []
+      }
+    }
+  },
+  "metadata": {
+    "created": "2023-04-03T13:43:12.954Z",
+    "lastModified": "2023-04-03T13:43:12.954Z",
+    "name": "Experiment 1"
+  }
+}

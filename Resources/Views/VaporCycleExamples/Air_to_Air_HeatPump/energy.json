@@ -1,0 +1,54 @@
+{
+  "stickies": [
+    "aggregateTwoPhaseProperties.M",
+    "aggregateTwoPhaseProperties.V",
+    "condenser.summary.V",
+    "evaporator.summary.V",
+    "SimpleTXV.summary.V",
+    "compressor.volume.V",
+    "receiver.summary.V",
+    "condenser.summary.Ah",
+    "condenser.summary.Ah_sec",
+    "evaporator.summary.Ah",
+    "evaporator.summary.Ah_sec",
+    "evaporator.summary.Q_flow",
+    "condenser.summary.Q_flow",
+    "condenser.summary.T_in",
+    "condenser.summary.T_out"
+  ],
+  "stickyPositions": [
+    {
+      "component": "condenser",
+      "x": 275.53293,
+      "y": 102.546875
+    },
+    {
+      "component": "SimpleTXV",
+      "x": -308.29956,
+      "y": 25.765282
+    },
+    {
+      "component": "receiver",
+      "x": -289.2964,
+      "y": 87.80252
+    },
+    {
+      "component": "aggregateTwoPhaseProperties",
+      "x": -335.94226,
+      "y": 171.1119
+    },
+    {
+      "component": "evaporator",
+      "x": -296.0075,
+      "y": -50.574215
+    },
+    {
+      "component": "compressor",
+      "x": 172.59962,
+      "y": -8.95477
+    }
+  ],
+  "plots": [],
+  "version": "1",
+  "name": "Energy"
+}

@@ -1,0 +1,41 @@
+{
+  "version": "1",
+  "id": "0796cabd783a4311b18a73b3d26fe938",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 800.0
+            },
+            "simulationOptions": {
+              "ncp": 5000
+            },
+            "solverOptions": {
+              "rtol": 1e-07
+            },
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": [
+          {
+            "name": "SimpleTXV.SuperHeatSetPoint",
+            "expression": "range(5,15,3)"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created": "2023-04-09T19:30:54.674Z",
+    "lastModified": "2023-04-09T19:30:54.674Z",
+    "name": "SuperHeat"
+  }
+}

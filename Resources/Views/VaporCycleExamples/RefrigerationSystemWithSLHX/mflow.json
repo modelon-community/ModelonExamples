@@ -1,0 +1,100 @@
+{
+  "stickies": [
+    "summary.COP"
+  ],
+  "stickyPositions": [],
+  "plots": [
+    {
+      "variables": [
+        "compressor.summary.m_flow"
+      ],
+      "colors": {
+        "compressor.summary.m_flow": [
+          "#ff7f0e"
+        ]
+      },
+      "x": 62.968613,
+      "y": 184.12039,
+      "width": 453.0,
+      "height": 288.0,
+      "title": "Plot 1"
+    },
+    {
+      "variables": [
+        "SLHX.summary.m_flow"
+      ],
+      "colors": {
+        "SLHX.summary.m_flow": [
+          "#2ca02c"
+        ]
+      },
+      "x": -423.07468,
+      "y": 187.55937,
+      "width": 500.0,
+      "height": 306.0,
+      "title": "Plot 2"
+    },
+    {
+      "variables": [
+        "SLHX.summary.m_flow_sec"
+      ],
+      "colors": {
+        "SLHX.summary.m_flow_sec": [
+          "#d62728"
+        ]
+      },
+      "x": -425.9405,
+      "y": 29.939209,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 3"
+    },
+    {
+      "variables": [
+        "receiver.summary.m_flow_in"
+      ],
+      "colors": {
+        "receiver.summary.m_flow_in": [
+          "#9467bd"
+        ]
+      },
+      "x": -111.273315,
+      "y": 198.4495,
+      "width": 400.0,
+      "height": 260.0,
+      "title": "Plot 4"
+    },
+    {
+      "variables": [
+        "evaporator.summary.m_flow"
+      ],
+      "colors": {
+        "evaporator.summary.m_flow": [
+          "#8c564b"
+        ]
+      },
+      "x": 63.54178,
+      "y": 59.74375,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 5"
+    },
+    {
+      "variables": [
+        "condenser.summary.m_flow"
+      ],
+      "colors": {
+        "condenser.summary.m_flow": [
+          "#e377c2"
+        ]
+      },
+      "x": 9.664339,
+      "y": 59.74375,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 6"
+    }
+  ],
+  "version": "1",
+  "name": "mflow"
+}

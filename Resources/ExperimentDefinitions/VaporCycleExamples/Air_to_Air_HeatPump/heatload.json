@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "id": "b7b6c902368f4c8c993db681553e10dc",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 3600.0
+            },
+            "simulationOptions": {
+              "ncp": 5000
+            },
+            "solverOptions": {
+              "rtol": 1e-07
+            },
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": [
+          {
+            "name": "mflow_cond_in.height",
+            "expression": "-0.20"
+          },
+          {
+            "name": "mflow_cond_in.duration",
+            "expression": "300"
+          },
+          {
+            "name": "mflow_cond_in.startTime",
+            "expression": "1800"
+          },
+          {
+            "name": "condenser.L_air",
+            "expression": "1.5"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created": "2023-04-09T19:37:20.258Z",
+    "lastModified": "2023-04-09T19:37:20.258Z",
+    "name": "HeatLoad"
+  }
+}
