@@ -1,0 +1,57 @@
+{
+  "name": "LibraryExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "AirConditioning",
+      "versionSpecifier": "1.26.0+build.48"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.11.0+build.30"
+    },
+    {
+      "name": "Pneumatics",
+      "versionSpecifier": "2.15.0+build.11"
+    },
+    {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.11.0+build.25"
+    },
+    {
+      "name": "Hydraulics",
+      "versionSpecifier": "4.19.0+build.9"
+    },
+    {
+      "name": "EngineDynamics",
+      "versionSpecifier": "2.11.0+build.22"
+    },
+    {
+      "name": "HeatExchanger",
+      "versionSpecifier": "2.11.0+build.18"
+    },
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "Examples",
+      "contentType": "MODELICA",
+      "name": "Examples",
+      "defaultDisabled": false,
+      "id": "126f38b54eeb4300bb4cb39a2b3d6c8c"
+    }
+  ],
+  "executionOptions": [],
+  "icon": ".impact/icon.png"
+}
