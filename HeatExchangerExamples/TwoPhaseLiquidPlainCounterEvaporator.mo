@@ -1,0 +1,4 @@
+within HeatExchangerExamples;
+model TwoPhaseLiquidPlainCounterEvaporator
+    extends .HeatExchanger.HeatExchangers.Plate.Experiments.TwoPhaseLiquidPlainCounterEvaporator;
+end TwoPhaseLiquidPlainCounterEvaporator;

@@ -1,0 +1,28 @@
+{
+  "name": "HeatExchangerExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "HeatExchanger",
+      "versionSpecifier": "2.11.0+build.18"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "HeatExchangerExamples",
+      "contentType": "MODELICA",
+      "name": "HeatExchangerExamples",
+      "defaultDisabled": false,
+      "id": "373d8d2e15b942be8badba00e39000b7"
+    }
+  ],
+  "executionOptions": []
+}
