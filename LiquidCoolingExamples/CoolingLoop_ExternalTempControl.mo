@@ -1,0 +1,4 @@
+within LiquidCoolingExamples;
+model CoolingLoop_ExternalTempControl
+    extends .LiquidCooling.Experiments.CoolingCircuits.CoolingLoop_ExternalTempControl;
+end CoolingLoop_ExternalTempControl;

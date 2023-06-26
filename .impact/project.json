@@ -1,0 +1,28 @@
+{
+  "name": "LiquidCoolingExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.11.0+build.30"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "LiquidCoolingExamples",
+      "contentType": "MODELICA",
+      "name": "LiquidCoolingExamples",
+      "defaultDisabled": false,
+      "id": "ae861c454840426f9f1bcecab3260bf0"
+    }
+  ],
+  "executionOptions": []
+}
