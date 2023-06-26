@@ -1,0 +1,28 @@
+{
+  "name": "EngineDynamicsExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "EngineDynamics",
+      "versionSpecifier": "2.11.0+build.22"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "EngineDynamicsExamples",
+      "contentType": "MODELICA",
+      "name": "EngineDynamicsExamples",
+      "defaultDisabled": false,
+      "id": "b8545d720fa44ea1b545ff00633d4968"
+    }
+  ],
+  "executionOptions": []
+}
