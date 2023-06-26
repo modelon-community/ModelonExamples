@@ -1,0 +1,28 @@
+{
+  "name": "AirConditioningexamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "AirConditioning",
+      "versionSpecifier": "1.26.0+build.48"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "AirConditioningExamples",
+      "contentType": "MODELICA",
+      "name": "AirConditioningExamples",
+      "defaultDisabled": false,
+      "id": "50defb315f3a47978ca89d1677b39bc8"
+    }
+  ],
+  "executionOptions": []
+}
