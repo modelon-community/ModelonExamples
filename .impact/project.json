@@ -1,0 +1,28 @@
+{
+  "name": "VaporCycleExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.11.0+build.26"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "VaporCycleExamples",
+      "contentType": "MODELICA",
+      "name": "VaporCycleExamples",
+      "defaultDisabled": false,
+      "id": "4acb3b4b333b4d358fa53f416c195ef7"
+    }
+  ],
+  "executionOptions": []
+}
