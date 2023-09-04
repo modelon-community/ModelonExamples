@@ -1,0 +1,46 @@
+{
+  "version" : "2",
+  "id" : "3e96939d-4809-4db8-b900-d64e79838dea",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "dynamic",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 10000,
+            "interval" : 20,
+            "start_time" : 0
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : false,
+            "ncp" : 10001,
+            "solver" : "CVode"
+          },
+          "solverOptions" : {
+            "tolerance" : 1.0E-5
+          },
+          "compilerOptions" : {
+            "c_compiler" : "gcc",
+            "generate_html_diagnostics" : false,
+            "include_protected_variables" : false
+          },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ {
+          "name" : "cloudCoverage.n",
+          "expression" : "2"
+        } ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2023-08-18 10:11:59.139465872",
+    "lastModified" : "2023-09-04T12:06:01.494261610Z",
+    "name" : "Cloud_coverage"
+  }
+}

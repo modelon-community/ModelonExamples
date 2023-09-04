@@ -1,0 +1,49 @@
+{
+  "version" : "2",
+  "id" : "a23f31a5-3775-4645-85f8-ed2d813b1ecf",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "dynamic",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 10000,
+            "interval" : 20,
+            "numberOfIntervals" : 10001,
+            "solver" : "CVode",
+            "start_time" : 0,
+            "tolerance" : 1.0E-5
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : false,
+            "ncp" : 10001,
+            "solver" : "CVode"
+          },
+          "solverOptions" : {
+            "tolerance" : 1.0E-5
+          },
+          "compilerOptions" : {
+            "c_compiler" : "gcc",
+            "generate_html_diagnostics" : false,
+            "include_protected_variables" : false
+          },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ {
+          "name" : "sun.Latitude",
+          "expression" : "74.8719"
+        } ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2023-08-18 10:18:11.253944126",
+    "lastModified" : "2023-08-18T10:32:52.835174071Z",
+    "name" : "Solar_insolation_changes"
+  }
+}

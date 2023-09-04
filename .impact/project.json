@@ -1,0 +1,64 @@
+{
+  "name": "ThermalPowerExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "ThermalPower",
+      "versionSpecifier": "1.26.0+build.39"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "83612049ac2248b5b84fcea024abcfeb"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "4335fa92544b4edaaa3f9395cea3fd0c"
+    },
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "a1001729ed4d4cefb6a2da4a609875eb"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "3a05e28ad58e4a41bd9cd1d6df20b2ff"
+    },
+    {
+      "relpath": "ReferenceResults",
+      "contentType": "REFERENCE_RESULTS",
+      "defaultDisabled": false,
+      "id": "7655e77015f4413381feca9e361b8b5a"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "ae0714e19fa448a9b349c6804100e9f8"
+    },
+    {
+      "relpath": "HC_Article",
+      "contentType": "MODELICA",
+      "name": "HC_Article",
+      "defaultDisabled": false,
+      "id": "1c72c9d7b4b1481c8e34ebac89ff0507"
+    }
+  ],
+  "executionOptions": []
+}
