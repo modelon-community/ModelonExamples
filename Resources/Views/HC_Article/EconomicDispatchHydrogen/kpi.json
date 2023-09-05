@@ -1,0 +1,47 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "electricGrid.P_out" ],
+    "colors" : {
+      "electricGrid.P_out" : [ "#2ca02c" ]
+    },
+    "x" : -44.562912,
+    "y" : 133.91461,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Grid Output Power"
+  }, {
+    "variables" : [ "economy.opex_per_second" ],
+    "colors" : {
+      "economy.opex_per_second" : [ "#d62728" ]
+    },
+    "x" : -18.300724,
+    "y" : 27.483635,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Operating expenditure"
+  }, {
+    "variables" : [ "electrolyzer.fluidPort.m_flow" ],
+    "colors" : {
+      "electrolyzer.fluidPort.m_flow" : [ "#1f77b4" ]
+    },
+    "x" : -227.36157,
+    "y" : 135.98795,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Hydrogen Production"
+  }, {
+    "variables" : [ "fuelCell.pin.i" ],
+    "colors" : {
+      "fuelCell.pin.i" : [ "#ff7f0e" ]
+    },
+    "x" : -236.69156,
+    "y" : 33.703625,
+    "width" : 455.0,
+    "height" : 250.0,
+    "title" : "Fuel Cell Current"
+  } ],
+  "version" : "1",
+  "name" : "KPI"
+}
