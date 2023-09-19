@@ -1,0 +1,40 @@
+{
+  "version" : "2",
+  "id" : "a980ba9b-cfc6-4f4f-ba8b-0e68e2e798ba",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "dynamic",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 36000,
+            "interval" : 172.8,
+            "start_time" : 0
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : false,
+            "ncp" : 500
+          },
+          "solverOptions" : { },
+          "compilerOptions" : {
+            "c_compiler" : "gcc",
+            "generate_html_diagnostics" : false,
+            "include_protected_variables" : false
+          },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2023-08-12 06:55:44.064180846",
+    "lastModified" : "2023-08-14T05:26:05.119237342Z",
+    "name" : "Foam232_FlightRange"
+  }
+}

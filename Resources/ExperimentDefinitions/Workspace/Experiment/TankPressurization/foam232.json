@@ -1,0 +1,67 @@
+{
+  "version" : "2",
+  "id" : "c301ad64-5676-42f3-afca-b976aaf8a9ea",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "dynamic",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 86400,
+            "interval" : 172.8,
+            "start_time" : 0
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : false,
+            "ncp" : 500
+          },
+          "solverOptions" : { },
+          "compilerOptions" : {
+            "c_compiler" : "gcc",
+            "generate_html_diagnostics" : false,
+            "include_protected_variables" : false
+          },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ {
+          "name" : "p_max",
+          "expression" : "404000"
+        }, {
+          "name" : "V_inner",
+          "expression" : "235"
+        }, {
+          "name" : "D_outer",
+          "expression" : "4.67"
+        }, {
+          "name" : "L_total",
+          "expression" : "17.2"
+        }, {
+          "name" : "t_vessel",
+          "expression" : "0.0041"
+        }, {
+          "name" : "t_insulation",
+          "expression" : "0.1289"
+        }, {
+          "name" : "t_protection",
+          "expression" : "0.0008"
+        }, {
+          "name" : "k_insulation",
+          "expression" : "0.015"
+        }, {
+          "name" : "massHydAvail",
+          "expression" : "13620"
+        } ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2023-08-10 07:36:28.53510004",
+    "lastModified" : "2023-08-10T13:06:12.377675319Z",
+    "name" : "Foam232"
+  }
+}

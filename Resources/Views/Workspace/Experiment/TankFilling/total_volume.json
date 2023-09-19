@@ -1,0 +1,19 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "storageTank.V", "storageTank.V_liq", "storageTank.V_vap" ],
+    "colors" : {
+      "storageTank.V" : [ "#1f77b4" ],
+      "storageTank.V_liq" : [ "#ff7f0e" ],
+      "storageTank.V_vap" : [ "#2ca02c" ]
+    },
+    "x" : -220.3196,
+    "y" : 101.71508,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Tank Volumes"
+  } ],
+  "version" : "1",
+  "name" : "total volume"
+}

@@ -1,0 +1,18 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "p_max", "storageTank.p" ],
+    "colors" : {
+      "p_max" : [ "#bcbd22" ],
+      "storageTank.p" : [ "#7f7f7f" ]
+    },
+    "x" : -246.2354,
+    "y" : 43.65792,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "total pressure"
+  } ],
+  "version" : "1",
+  "name" : "total pressure"
+}

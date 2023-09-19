@@ -1,0 +1,64 @@
+{
+  "name": "HydrogenStorageTutorial",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.11.0+build.26"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "cb7037bc9c0f43edb73dacfab1d1003e"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "04ebfb121a3c4c08960e11869ffa673a"
+    },
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "0394d1d5cabf4c29aa11a5452189b929"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "e272999e90794bc0b2eeab67842759e0"
+    },
+    {
+      "relpath": "ReferenceResults",
+      "contentType": "REFERENCE_RESULTS",
+      "defaultDisabled": false,
+      "id": "abb1dcb1e40345ea95e198d933a675dc"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "f35b6c3f83c14c99b0976fd86c5d3159"
+    },
+    {
+      "relpath": "Workspace",
+      "contentType": "MODELICA",
+      "name": "Workspace",
+      "defaultDisabled": false,
+      "id": "94130bb57f294c45bdc9d679f1e2e831"
+    }
+  ],
+  "executionOptions": []
+}

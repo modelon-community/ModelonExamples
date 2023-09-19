@@ -1,0 +1,40 @@
+{
+  "version" : "2",
+  "id" : "0ea42b10-effe-42f0-b605-af60761be11e",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "dynamic",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 36000,
+            "interval" : 172.8,
+            "start_time" : 0
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : false,
+            "ncp" : 500
+          },
+          "solverOptions" : { },
+          "compilerOptions" : {
+            "c_compiler" : "gcc",
+            "generate_html_diagnostics" : false,
+            "include_protected_variables" : false
+          },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2023-09-18 14:30:09.962933401",
+    "lastModified" : "2023-09-18T14:30:27.756554148Z",
+    "name" : "MLI232_FlightRange"
+  }
+}

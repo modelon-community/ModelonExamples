@@ -1,0 +1,17 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "checkValve.m_flow" ],
+    "colors" : {
+      "checkValve.m_flow" : [ "#ffbb78" ]
+    },
+    "x" : -179.68137,
+    "y" : 89.08368,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 1"
+  } ],
+  "version" : "1",
+  "name" : "Multi"
+}
