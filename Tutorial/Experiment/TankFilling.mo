@@ -1,6 +1,6 @@
-within Workspace.Experiment;
+within Tutorial.Experiment;
 model TankFilling
-    extends .Workspace.Experiment.TankTestBase(storageTank(initFromLevel = true,rel_level_start = 0.01),checkValve(dp_open = p_max - 101305));
+    extends .Tutorial.Experiment.TankTestBase(storageTank(initFromLevel = true,rel_level_start = 0.01),checkValve(dp_open = p_max - 101305));
     .Modelica.Blocks.Sources.RealExpression altitude(y = 0) annotation(Placement(transformation(extent = {{-146.0,20.0},{-126.0,40.0}},origin = {0.0,0.0},rotation = 0.0)));
     .Modelica.Blocks.Sources.TimeTable timeTable(table = [0,0;t_fill_start,0;t_fill_start,fill_rate;t_fill_start + t_fill,fill_rate;t_fill_start + t_fill,0]) annotation(Placement(transformation(extent = {{-126.0,-32.0},{-106.0,-12.0}},origin = {0.0,0.0},rotation = 0.0)));
     parameter .Modelica.Units.SI.Mass M_liq_fill "The amount of fuel to transfer into storage tank" annotation(Dialog(group = "Filling experiment"));

@@ -1,7 +1,7 @@
-within Workspace.Experiment;
+within Tutorial.Experiment;
 
 model FlightRangeBase
-    extends .Workspace.Experiment.TankTestBase(storageTank(initFromLevel = false,rel_level_start = 0.01,enable_liquidHeatPort = true));
+    extends .Tutorial.Experiment.TankTestBase(storageTank(initFromLevel = false,rel_level_start = 0.01,enable_liquidHeatPort = true));
     .Modelon.ThermoFluid.Sources.Environment_Q environment_Q(paraOption_Qflow = true) annotation(Placement(transformation(extent = {{36.0,-16.0},{16.0,4.0}},origin = {0.0,0.0},rotation = 0.0)));
     .Modelica.Blocks.Sources.Ramp ramp(height = 1,startTime = 0) annotation(Placement(transformation(extent = {{78.0,-16.0},{58.0,4.0}},origin = {0.0,0.0},rotation = 0.0)));
     .Modelica.Blocks.Sources.RealExpression timeSignal(y = .Modelica.Units.Conversions.to_hour(time)) annotation(Placement(transformation(extent = {{-178.0,-4.0},{-158.0,16.0}},origin = {0.0,0.0},rotation = 0.0)));

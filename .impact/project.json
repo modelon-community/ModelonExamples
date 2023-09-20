@@ -53,11 +53,18 @@
       "id": "f35b6c3f83c14c99b0976fd86c5d3159"
     },
     {
-      "relpath": "Workspace",
+      "relpath": "Tutorial",
       "contentType": "MODELICA",
-      "name": "Workspace",
+      "name": "Tutorial",
       "defaultDisabled": false,
       "id": "94130bb57f294c45bdc9d679f1e2e831"
+    },
+    {
+      "relpath": "Examples",
+      "contentType": "MODELICA",
+      "name": "Examples",
+      "defaultDisabled": false,
+      "id": "5b3927b65ef9471f91bbb98e51f7f315"
     }
   ],
   "executionOptions": []

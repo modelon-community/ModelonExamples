@@ -1,7 +1,7 @@
-within Workspace.Experiment;
+within Tutorial.Experiment;
 
 model TankPressurization
-    extends .Workspace.Experiment.TankTestBase(storageTank(initFromLevel = false,rel_level_start = 0.01,enable_liquidHeatPort = true));
+    extends .Tutorial.Experiment.TankTestBase(storageTank(initFromLevel = false,rel_level_start = 0.01,enable_liquidHeatPort = true));
     .Modelica.Blocks.Sources.RealExpression altitude(y = 0) annotation(Placement(transformation(extent = {{-146.0,20.0},{-126.0,40.0}},origin = {0.0,0.0},rotation = 0.0)));
     .Modelica.Blocks.Sources.TimeTable timeTable(table = [0,0;1,0]) annotation(Placement(transformation(extent = {{-126.0,-32.0},{-106.0,-12.0}},origin = {0.0,0.0},rotation = 0.0)));
     .Modelon.ThermoFluid.Sources.Environment_Q environment_Q(paraOption_Qflow = true) annotation(Placement(transformation(extent = {{36.0,-16.0},{16.0,4.0}},origin = {0.0,0.0},rotation = 0.0)));

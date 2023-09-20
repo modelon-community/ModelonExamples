@@ -1,4 +1,4 @@
-within Workspace;
+within Tutorial;
 model SizingMLI232
     .VaporCycle.Experiments.CryogenicH2.TankSizing.Tanks.DormantVacuum dormantVacuum(sf = 2.2,p_max = 210000,V_i = 0.13,p_filling = 165500,sizeAndShape = VaporCycle.Experiments.CryogenicH2.TankSizing.Tanks.Utilities.SizeAndShape.MassAndRadius,massHydAvail_prscr = 10220,r_outer_par = 4.67 / (2),thickness_par = 0.127) annotation(Placement(transformation(extent = {{-38.0,14.0},{-18.0,34.0}},origin = {0.0,0.0},rotation = 0.0)));
     .Modelica.Thermal.HeatTransfer.Sources.FixedTemperature fixedTemperature(T = 288.15) annotation(Placement(transformation(extent = {{-84.0,14.0},{-64.0,34.0}},origin = {0.0,0.0},rotation = 0.0)));

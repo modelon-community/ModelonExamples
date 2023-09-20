@@ -1,4 +1,4 @@
-within Workspace;
+within Tutorial;
 model SizingFoam232
     .VaporCycle.Experiments.CryogenicH2.TankSizing.Tanks.DormantFoam dormantFoam(redeclare replaceable record Material2 = .VaporCycle.Experiments.CryogenicH2.TankSizing.Tanks.Layers.MaterialProperties.PolyurethaneFoam,sf = 2.2,p_max = 404e3,V_i = 0.13,p_filling = 165.5e3,sizeAndShape = VaporCycle.Experiments.CryogenicH2.TankSizing.Tanks.Utilities.SizeAndShape.MassAndRadius,massHydAvail_prscr = 13620,r_outer_par = 4.67 / (2),insulationSizing = VaporCycle.Experiments.CryogenicH2.TankSizing.Tanks.Utilities.InsulationSizing.Dormancy) annotation(Placement(transformation(extent = {{-52.0,2.0},{-32.0,22.0}},origin = {0.0,0.0},rotation = 0.0)));
     .Modelica.Thermal.HeatTransfer.Sources.FixedTemperature fixedTemperature(T = 288.15) annotation(Placement(transformation(extent = {{-104,2},{-84,22}},origin = {0,0},rotation = 0)));
