@@ -1,0 +1,28 @@
+{
+  "name": "VaporCycleAndHeatPump",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.11.0+build.26"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "Tutorial",
+      "contentType": "MODELICA",
+      "name": "Tutorial",
+      "defaultDisabled": false,
+      "id": "52c4af5e8aef46e99c0c36ed29601cc8"
+    }
+  ],
+  "executionOptions": []
+}
