@@ -1,0 +1,20 @@
+{
+  "name": "Fuel_System",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "FuelSystem",
+      "versionSpecifier": "5.4.0+build.12"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [],
+  "executionOptions": []
+}
