@@ -1,0 +1,76 @@
+{
+  "name": "GasTurbineAndPowerPlant",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "IndustryExamples",
+      "versionSpecifier": "1.3.0+build.21"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "Pneumatics",
+      "versionSpecifier": "2.15.0+build.11"
+    },
+    {
+      "name": "Hydraulics",
+      "versionSpecifier": "4.19.0+build.9"
+    },
+    {
+      "name": "VehicleDynamics",
+      "versionSpecifier": "4.3.0+build.66"
+    },
+    {
+      "name": "AirConditioning",
+      "versionSpecifier": "1.26.0+build.48"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.11.0"
+    },
+    {
+      "name": "ThermalPower",
+      "versionSpecifier": "1.26.0"
+    },
+    {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.11.0+build.26"
+    },
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
+    },
+    {
+      "name": "AircraftDynamics",
+      "versionSpecifier": "1.9.0+build.13"
+    },
+    {
+      "name": "JetPropulsion",
+      "versionSpecifier": "2.6.0+build.22"
+    },
+    {
+      "name": "FuelSystem",
+      "versionSpecifier": "5.4.0+build.12"
+    },
+    {
+      "name": "FuelCell",
+      "versionSpecifier": "1.17.0+build.31"
+    },
+    {
+      "name": "HeatExchanger",
+      "versionSpecifier": "2.11.0+build.18"
+    },
+    {
+      "name": "EnvironmentalControl",
+      "versionSpecifier": "3.15.0+build.8"
+    }
+  ],
+  "content": [],
+  "executionOptions": []
+}
