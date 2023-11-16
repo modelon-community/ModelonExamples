@@ -1,0 +1,61 @@
+{
+  "name": "AutomotiveExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "VehicleDynamics",
+      "versionSpecifier": "4.3.0+build.66"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.11.0+build.30"
+    },
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
+    },
+    {
+      "name": "FuelCell",
+      "versionSpecifier": "1.17.0+build.31"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "ElectrificationExamples",
+      "contentType": "MODELICA",
+      "name": "ElectrificationExamples",
+      "defaultDisabled": false,
+      "id": "5789ae1d42524572b508b56d77cf0f5b"
+    },
+    {
+      "relpath": "FuelCellExamples",
+      "contentType": "MODELICA",
+      "name": "FuelCellExamples",
+      "defaultDisabled": false,
+      "id": "7bed4acc91e1409c9e99337928e76340"
+    },
+    {
+      "relpath": "LiqiudCoolingExamples",
+      "contentType": "MODELICA",
+      "name": "LiqiudCoolingExamples",
+      "defaultDisabled": false,
+      "id": "044ee9b95e3d44b68bb179e64975cab9"
+    },
+    {
+      "relpath": "VehicleDynamicsExamples",
+      "contentType": "MODELICA",
+      "name": "VehicleDynamicsExamples",
+      "defaultDisabled": false,
+      "id": "d679b6f9b684465abad8b6bd4fc49e2b"
+    }
+  ],
+  "executionOptions": []
+}
