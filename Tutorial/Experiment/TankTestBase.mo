@@ -39,5 +39,6 @@ equation
     connect(checkValve.portB,Atmosphere.port[1]) annotation(Line(points = {{12,39},{21,39},{21,42},{28,42}},color = {255,128,0}));
     connect(storageTank.liquidPort[1],massFlowBoundary.port) annotation(Line(points = {{-20,7},{-20,-26},{-30.2,-26}},color = {0,190,0}));
     connect(storageTank.heat_external,ambient_T.port[1]) annotation(Line(points = {{-28.7,16.1},{-62,16.1},{-62,10}},color = {191,0,0}));
-    annotation(Icon(coordinateSystem(preserveAspectRatio = false,extent = {{-100.0,-100.0},{100.0,100.0}}),graphics = {Rectangle(lineColor={0,0,0},fillColor={230,230,230},fillPattern=FillPattern.Solid,extent={{-100.0,-100.0},{100.0,100.0}}),Text(lineColor={0,0,255},extent={{-150,150},{150,110}},textString="%name")}));
+    annotation(Icon(coordinateSystem(preserveAspectRatio = false,extent = {{-100.0,-100.0},{100.0,100.0}}),graphics = {Rectangle(lineColor={0,0,0},fillColor={230,230,230},fillPattern=FillPattern.Solid,extent={{-100.0,-100.0},{100.0,100.0}}),Text(lineColor={0,0,255},extent={{-150,150},{150,110}},textString="%name")}),
+    Documentation(info = "<html><p>This is an example model for the <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/refueling/\">tank refueling tutorial</a>, section <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/refueling/#base-class-setup-to-test\">Base Class setup to test</a>.</p></html>"));
 end TankTestBase;

@@ -16,4 +16,6 @@ equation
     connect(altitudeTable.y[1],airData.alt_in) annotation(Line(points = {{-121,48},{-115,48},{-115,67.6},{-104.6,67.6}},color = {0,0,127}));
     connect(liquidFlowRateTable.u,timeSignal.y) annotation(Line(points = {{-142,-10},{-150,-10},{-150,6},{-157,6}},color = {0,0,127}));
     connect(liquidFlowRateTable.y[1],gain.u) annotation(Line(points = {{-119,-10},{-109.91005521941491,-10},{-109.91005521941491,-20},{-100.82011043882981,-20}},color = {0,0,127}));
+    
+    annotation(Documentation(info = "<html><p>This is an example model for the <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/fuel_consumption/\">fuel consumption tutorial</a>, section <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/fuel_consumption/#system-setup\">System setup</a>.</p></html>"));            
 end FlightRangeBase;
