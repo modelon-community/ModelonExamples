@@ -11,4 +11,6 @@ equation
     connect(environment_Q.port[1],storageTank.heat_liquid) annotation(Line(points = {{26,4},{26,12.899999999999999},{-20.1,12.899999999999999}},color = {191,0,0}));
     connect(ramp.y,environment_Q.Qflow_in) annotation(Line(points = {{57,-6},{36,-6}},color = {0,0,127}));
     connect(airData.alt_in,altitude.y) annotation(Line(points = {{-104.6,67.6},{-109,67.6},{-109,30},{-125,30}},color = {0,0,127}));
+    
+    annotation(Documentation(info = "<html><p>This is an example model for the <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/storage/\">tank storage tutorial</a>, section <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/storage/#system-setup\">System setup</a>.</p></html>"));        
 end TankPressurization;

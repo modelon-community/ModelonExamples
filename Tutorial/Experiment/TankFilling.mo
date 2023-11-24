@@ -10,4 +10,6 @@ model TankFilling
 equation
     connect(massFlowBoundary.m_flow_in,timeTable.y) annotation(Line(points = {{-43.2,-21},{-105,-21},{-105,-22}},color = {0,0,127}));
     connect(airData.alt_in,altitude.y) annotation(Line(points = {{-104.6,67.6},{-109,67.6},{-109,30},{-125,30}},color = {0,0,127}));
+    
+    annotation(Documentation(info = "<html><p>This is an example model for the <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/refueling/\">tank refueling tutorial</a>, section <a href=\"https://help.modelon.com/latest/tutorials/hydrogen_storage/refueling/#filling-experiment\">Filling experiment</a>.</p></html>"));    
 end TankFilling;
