@@ -1,0 +1,17 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "checkValve.m_flow" ],
+    "colors" : {
+      "checkValve.m_flow" : [ "#d62728" ]
+    },
+    "x" : 62.219967,
+    "y" : -26.31699,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Boil-off mass flow rate"
+  } ],
+  "version" : "1",
+  "name" : "Boil-off flow"
+}

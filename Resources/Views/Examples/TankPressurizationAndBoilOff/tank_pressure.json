@@ -1,0 +1,17 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "storageTank.p" ],
+    "colors" : {
+      "storageTank.p" : [ "#1f77b4" ]
+    },
+    "x" : 66.40142,
+    "y" : 84.90956,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Tank pressure"
+  } ],
+  "version" : "1",
+  "name" : "Tank pressure"
+}

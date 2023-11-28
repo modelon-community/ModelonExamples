@@ -1,0 +1,19 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "checkValve.dp", "checkValve.dp_open", "checkValve.dp_closed" ],
+    "colors" : {
+      "checkValve.dp" : [ "#9467bd" ],
+      "checkValve.dp_open" : [ "#8c564b" ],
+      "checkValve.dp_closed" : [ "#e377c2" ]
+    },
+    "x" : 73.091736,
+    "y" : -56.25617,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Boil-off pressure difference"
+  } ],
+  "version" : "1",
+  "name" : "Boil-off dp"
+}
