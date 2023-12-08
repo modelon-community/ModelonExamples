@@ -1,0 +1,30 @@
+{
+  "name": "Modelonexamples_1",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "ExpandableConnectors",
+      "contentType": "MODELICA",
+      "name": "ExpandableConnectors",
+      "defaultDisabled": false,
+      "id": "3fd3243202084a08be035ca7e9efa5fa"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "885039d37b6541bb873d3380f5e738bf"
+    }
+  ],
+  "executionOptions": []
+}
