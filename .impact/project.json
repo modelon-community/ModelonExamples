@@ -1,0 +1,28 @@
+{
+  "name": "ResidentialHeatPumps",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.11.0+build.26"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "ResidentialHeatPumps",
+      "contentType": "MODELICA",
+      "name": "ResidentialHeatPumps",
+      "defaultDisabled": false,
+      "id": "8d007b55f57f4868b52723bf0c783fee"
+    }
+  ],
+  "executionOptions": []
+}
