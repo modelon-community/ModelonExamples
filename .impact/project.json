@@ -1,0 +1,28 @@
+{
+  "name": "DesignThermalPowerCycles",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "ThermalPower",
+      "versionSpecifier": "1.26.0+build.39"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "DesignThermalPowerCycles",
+      "contentType": "MODELICA",
+      "name": "DesignThermalPowerCycles",
+      "defaultDisabled": false,
+      "id": "70aa70d3cfac447f8b6e05992fd243d7"
+    }
+  ],
+  "executionOptions": []
+}
