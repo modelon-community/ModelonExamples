@@ -1,0 +1,28 @@
+{
+  "name": "ControlDesignandImprovements",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "ThermalPower",
+      "versionSpecifier": "1.26.0+build.39"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "ControlDesignandImprovements",
+      "contentType": "MODELICA",
+      "name": "ControlDesignandImprovements",
+      "defaultDisabled": false,
+      "id": "c2b5f366df8b4db3b27cdc731512a866"
+    }
+  ],
+  "executionOptions": []
+}
