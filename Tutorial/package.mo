@@ -1,6 +1,6 @@
 package Tutorial
   extends .Modelica.Icons.Package;
-  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.11"),Modelon(version = "4.3"),ThermalPower(version = "1.26")),
+  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.12"),Modelon(version = "4.4"),ThermalPower(version = "1.26")),
       Documentation(revisions="<html><!--COPYRIGHT--></html>",info = "<html>
   <p><strong><span style=\"font-size: 18px;\">Aerospace content</span></strong></p><p><span><a href=\"https://modelon.com/modelon-impact/\">Modelon Impact</a>&nbsp;offers a wide range of physical modeling libraries addressing <a href=\"https://modelon.com/industries/aerospace-systems-modeling-and-simulation-software/\">aerospace industry needs</a>. This package contains the models built as part of the Hydrogen Tank Design tutorials, which can serve as reference solutions and intermediate check points. It contains the following models.</span></p>
   

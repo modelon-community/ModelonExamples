@@ -1,6 +1,6 @@
 {
   "version" : "2",
-  "id" : "b0caca1c-5f92-4d52-92f6-edeff658d635",
+  "id" : "9daa9351-b25d-403d-bea1-c33f73d876a8",
   "experiment" : {
     "base" : {
       "analysis" : {
@@ -19,6 +19,7 @@
             "solver" : "CVode"
           },
           "solverOptions" : {
+            "store_event_points" : true,
             "tolerance" : 1.0E-5
           },
           "compilerOptions" : {
@@ -36,8 +37,8 @@
     }
   },
   "metadata" : {
-    "created" : "2023-11-22 09:26:02.510539682",
-    "lastModified" : "2023-11-22 09:26:02.510539682",
+    "created" : "2024-03-05 09:23:28.538693022",
+    "lastModified" : "2024-03-05 09:23:28.538693022",
     "name" : "Experiment 1"
   }
 }

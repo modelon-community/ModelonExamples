@@ -1,6 +1,6 @@
 package Examples     
   extends .Modelica.Icons.Package;
-  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.11")),
+  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.12")),
       Documentation(revisions="<html><!--COPYRIGHT--></html>",info = "<html>
   <p><strong><span style=\"font-size: 18px;\">Aerospace content</span></strong></p><p><a href=\"https://modelon.com/modelon-impact/\">Modelon Impact</a> offers a wide range of physical modeling libraries addressing <a href=\"https://modelon.com/industries/aerospace-systems-modeling-and-simulation-software/\">aerospace industry needs</a>. This package includes an introductory collection of industry vertical examples and workflows. The package is divided into the following sub-packages.</p>
   
