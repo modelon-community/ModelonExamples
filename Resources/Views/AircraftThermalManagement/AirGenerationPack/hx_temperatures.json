@@ -1,0 +1,23 @@
+{
+  "stickies" : [ "main.summary.Tin_prim", "main.summary.Tin_sec", "main.summary.Tout_prim", "main.summary.Tout_sec", "reheater.summary.Tin_prim", "reheater.summary.Tin_sec", "primary.summary.Tin_prim", "primary.summary.Tin_sec", "condenser.summary.Tin_prim", "condenser.summary.Tin_sec", "reheater.summary.Tout_prim", "reheater.summary.Tout_sec", "condenser.summary.Tout_prim", "condenser.summary.Tout_sec", "primary.summary.Tout_prim", "primary.summary.Tout_sec" ],
+  "stickyPositions" : [ {
+    "component" : "reheater",
+    "x" : 90.12851,
+    "y" : 80.92491
+  }, {
+    "component" : "condenser",
+    "x" : 64.64358,
+    "y" : -45.54786
+  }, {
+    "component" : "main",
+    "x" : -113.77525,
+    "y" : 57.386044
+  }, {
+    "component" : "primary",
+    "x" : -132.09254,
+    "y" : -46.062927
+  } ],
+  "plots" : [ ],
+  "version" : "1",
+  "name" : "HX Temperatures"
+}

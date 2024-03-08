@@ -1,0 +1,99 @@
+{
+  "name": "AircraftThermalManagement",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Electrification"
+    },
+    {
+      "name": "AircraftDynamics",
+      "versionSpecifier": "1.10.0"
+    },
+    {
+      "name": "FuelCell",
+      "versionSpecifier": "1.18.0"
+    },
+    {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.12.0"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.12.0"
+    },
+    {
+      "name": "HeatExchanger",
+      "versionSpecifier": "2.12.0"
+    },
+    {
+      "name": "Pneumatics",
+      "versionSpecifier": "2.16.0"
+    },
+    {
+      "name": "EnvironmentalControl",
+      "versionSpecifier": "3.16.0"
+    },
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.4.0"
+    },
+    {
+      "name": "Hydraulics",
+      "versionSpecifier": "4.20.0"
+    },
+    {
+      "name": "FuelSystem",
+      "versionSpecifier": "5.5.0"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "74027392355e498994eacea9a5d0d8d0"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "d0859cb21c094434a9f3414167871238"
+    },
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "1dc20052e16e42b69d6efa77669dc5e2"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "f4affccbe89a44469f1b2a8adc3e3a3e"
+    },
+    {
+      "relpath": "ReferenceResults",
+      "contentType": "REFERENCE_RESULTS",
+      "defaultDisabled": false,
+      "id": "016eaf15137445a09653acd70d1065d6"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "a5f807af2e774ee2a51cb615f4622d35"
+    },
+    {
+      "relpath": "AircraftThermalManagement",
+      "contentType": "MODELICA",
+      "name": "AircraftThermalManagement",
+      "defaultDisabled": false,
+      "id": "0ff1327fd7d44f2c887d8c2a0c28fccc"
+    }
+  ],
+  "executionOptions": []
+}
