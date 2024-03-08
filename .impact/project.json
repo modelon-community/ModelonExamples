@@ -3,51 +3,24 @@
   "format": "1.0.0",
   "dependencies": [
     {
-      "name": "Electrification"
-    },
-    {
-      "name": "AircraftDynamics",
-      "versionSpecifier": "1.10.0"
-    },
-    {
-      "name": "FuelCell",
-      "versionSpecifier": "1.18.0"
-    },
-    {
-      "name": "VaporCycle",
-      "versionSpecifier": "2.12.0"
-    },
-    {
-      "name": "LiquidCooling",
-      "versionSpecifier": "2.12.0"
-    },
-    {
-      "name": "HeatExchanger",
-      "versionSpecifier": "2.12.0"
-    },
-    {
-      "name": "Pneumatics",
-      "versionSpecifier": "2.16.0"
-    },
-    {
-      "name": "EnvironmentalControl",
-      "versionSpecifier": "3.16.0"
-    },
-    {
       "name": "Modelica",
       "versionSpecifier": "4.0.0"
     },
     {
+      "name": "EnvironmentalControl",
+      "versionSpecifier": "3.16.0+build.40"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.12.0+build.78"
+    },
+    {
       "name": "Modelon",
-      "versionSpecifier": "4.4.0"
+      "versionSpecifier": "4.4.0+build.50"
     },
     {
-      "name": "Hydraulics",
-      "versionSpecifier": "4.20.0"
-    },
-    {
-      "name": "FuelSystem",
-      "versionSpecifier": "5.5.0"
+      "name": "VaporCycle",
+      "versionSpecifier": "2.12.0+build.92"
     }
   ],
   "content": [
