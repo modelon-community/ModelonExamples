@@ -1,4 +1,5 @@
-package AircraftThermalManagement     extends .Modelica.Icons.Package;
+package AircraftThermalManagement
+    extends .Modelica.Icons.Package;
     annotation (uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.12"),EnvironmentalControl(version = "3.16"),Modelon(version = "4.4"),LiquidCooling(version = "2.12")),
     Documentation(revisions="<html><!--COPYRIGHT--></html>",info = "<html>
   <p><strong><span style=\"font-size: 18px;\">Aircraft thermal management</span></strong></p><p>Plan and assess cooling systems ranging from light air cycles (“environmental control systems”) to highly efficient vapor cycles. Analyze their dynamics and performance as standalone systems or integrated with liquid cooling systems. Consider different heat exchangers, compressors, turbines, pumps, and ejectors. Select suitable refrigerants and coolants.
