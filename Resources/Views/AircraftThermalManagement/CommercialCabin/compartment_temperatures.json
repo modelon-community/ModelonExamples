@@ -1,0 +1,28 @@
+{
+  "stickies" : [ "cabin.T[1]", "cabin.T[2]", "cargo.summary.T", "flightDeck.summary.T" ],
+  "stickyPositions" : [ {
+    "component" : "cabin",
+    "x" : 69.902084,
+    "y" : 46.510437
+  }, {
+    "component" : "flightDeck",
+    "x" : 120.38246,
+    "y" : 31.621922
+  } ],
+  "plots" : [ {
+    "variables" : [ "cabin.T[1]", "cabin.T[2]", "cargo.volume.T", "flightDeck.volume.T" ],
+    "colors" : {
+      "cabin.T[1]" : [ "#1f77b4" ],
+      "cabin.T[2]" : [ "#ff7f0e" ],
+      "cargo.volume.T" : [ "#2ca02c" ],
+      "flightDeck.volume.T" : [ "#d62728" ]
+    },
+    "x" : -92.66994,
+    "y" : -27.308352,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Compartment Temperatures"
+  } ],
+  "version" : "1",
+  "name" : "Compartment Temperatures"
+}
