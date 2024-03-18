@@ -1,6 +1,6 @@
 package Examples     
   extends .Modelica.Icons.Package;
-  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.11")),
+  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.12")),
       Documentation(revisions="<html><!--COPYRIGHT--></html>",info = "<html>
   <p><strong><span style=\"font-size: 18px;\">Aerospace content</span></strong></p><p><a href=\"https://modelon.com/modelon-impact/\">Modelon Impact</a> offers a wide range of physical modeling libraries addressing <a href=\"https://modelon.com/industries/aerospace-systems-modeling-and-simulation-software/\">aerospace industry needs</a>. This package includes an introductory collection of industry vertical examples and workflows. The package is divided into the following sub-packages.</p>
   
@@ -28,5 +28,5 @@ package Examples
 </p>
   
 <p>Additional aerospace content is available in the <a href=\"http://help.modelon.com/latest/verticals/use_cases_tutorials/\">tutorials</a> of Modelon Help Center.</p>
-</html>"),Icon(graphics = {Rectangle(lineColor={200,200,200},fillColor={248,248,248},fillPattern=FillPattern.HorizontalCylinder,extent={{-100.0,-100.0},{100.0,100.0}},radius=25.0),Rectangle(lineColor={128,128,128},extent={{-100.0,-100.0},{100.0,100.0}},radius=25.0),Bitmap(fileName="modelica://IndustryExamples/Resources/Images/Icons/Aerospace.png",origin={0,-4},extent={{-90,-75},{90,75}})})); 
+</html>")); 
 end Examples;

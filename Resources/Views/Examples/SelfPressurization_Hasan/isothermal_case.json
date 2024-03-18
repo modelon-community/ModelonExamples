@@ -1,0 +1,29 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "storageTank_isothermal.p", "p_meas_iso" ],
+    "colors" : {
+      "storageTank_isothermal.p" : [ "#2ca02c" ],
+      "p_meas_iso" : [ "#d62728" ]
+    },
+    "x" : 28.09934,
+    "y" : 57.313736,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Measured vs. predicted pressure (isothermal)"
+  }, {
+    "variables" : [ "storageTank_isothermal.T_vap", "Tg_meas" ],
+    "colors" : {
+      "storageTank_isothermal.T_vap" : [ "#9467bd" ],
+      "Tg_meas" : [ "#e377c2" ]
+    },
+    "x" : 109.0522,
+    "y" : 57.483837,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Measured vs. predicted temp. (isothermal)"
+  } ],
+  "version" : "1",
+  "name" : "Isothermal case"
+}

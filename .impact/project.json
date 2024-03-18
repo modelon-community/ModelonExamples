@@ -3,20 +3,16 @@
   "format": "1.0.0",
   "dependencies": [
     {
+      "name": "VaporCycle",
+      "versionSpecifier": "2.12.0+build.92"
+    },
+    {
       "name": "Modelica",
       "versionSpecifier": "4.0.0"
     },
     {
-      "name": "VaporCycle",
-      "versionSpecifier": "2.11.0+build.26"
-    },
-    {
       "name": "Modelon",
-      "versionSpecifier": "4.3.0+build.20"
-    },
-    {
-      "name": "IndustryExamples",
-      "versionSpecifier": "1.3.0+build.21"
+      "versionSpecifier": "4.4.0+build.50"
     }
   ],
   "content": [

@@ -1,6 +1,6 @@
 package Tutorial
-  extends .Modelica.Icons.Package;
-  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.11"),Modelon(version = "4.3"),ThermalPower(version = "1.26")),
+  extends Modelica.Icons.Package;
+  annotation(uses(Modelica(version = "4.0.0"),VaporCycle(version = "2.12"),Modelon(version = "4.4"),ThermalPower(version = "1.26")),
       Documentation(revisions="<html><!--COPYRIGHT--></html>",info = "<html>
   <p><strong><span style=\"font-size: 18px;\">Aerospace content</span></strong></p><p><span><a href=\"https://modelon.com/modelon-impact/\">Modelon Impact</a>&nbsp;offers a wide range of physical modeling libraries addressing <a href=\"https://modelon.com/industries/aerospace-systems-modeling-and-simulation-software/\">aerospace industry needs</a>. This package contains the models built as part of the Hydrogen Tank Design tutorials, which can serve as reference solutions and intermediate check points. It contains the following models.</span></p>
   
@@ -25,5 +25,5 @@ package Tutorial
 </p>
   
 <p>Additional aerospace content is available in the <a href=\"http://help.modelon.com/latest/verticals/use_cases_tutorials/\">tutorials</a> of Modelon Help Center.</p>
-</html>"),Icon(graphics = {Rectangle(lineColor={200,200,200},fillColor={248,248,248},fillPattern=FillPattern.HorizontalCylinder,extent={{-100.0,-100.0},{100.0,100.0}},radius=25.0),Rectangle(lineColor={128,128,128},extent={{-100.0,-100.0},{100.0,100.0}},radius=25.0),Bitmap(fileName="modelica://IndustryExamples/Resources/Images/Icons/Aerospace.png",origin={0,-4},extent={{-90,-75},{90,75}})}));     
+</html>"));     
 end Tutorial;

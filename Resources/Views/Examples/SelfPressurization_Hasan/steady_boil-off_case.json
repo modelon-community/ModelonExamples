@@ -1,0 +1,29 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "storageTank_steadyBoiloff.p", "p_meas_steady" ],
+    "colors" : {
+      "storageTank_steadyBoiloff.p" : [ "#1f77b4" ],
+      "p_meas_steady" : [ "#ff7f0e" ]
+    },
+    "x" : 35.29143,
+    "y" : 99.29549,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Measured vs. predicted pressure (steady boil-off)"
+  }, {
+    "variables" : [ "storageTank_steadyBoiloff.T_vap", "Tg_meas" ],
+    "colors" : {
+      "storageTank_steadyBoiloff.T_vap" : [ "#8c564b" ],
+      "Tg_meas" : [ "#e377c2" ]
+    },
+    "x" : 118.58591,
+    "y" : 98.796555,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Measured vs. predicted temp. (steady boil-off)"
+  } ],
+  "version" : "1",
+  "name" : "Steady boil-off case"
+}

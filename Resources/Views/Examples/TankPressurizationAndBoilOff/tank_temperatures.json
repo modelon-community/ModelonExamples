@@ -1,0 +1,18 @@
+{
+  "stickies" : [ ],
+  "stickyPositions" : [ ],
+  "plots" : [ {
+    "variables" : [ "storageTank.T_vap", "storageTank.T_liq" ],
+    "colors" : {
+      "storageTank.T_vap" : [ "#ff7f0e" ],
+      "storageTank.T_liq" : [ "#2ca02c" ]
+    },
+    "x" : 64.05981,
+    "y" : 35.233944,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Tank temperatures"
+  } ],
+  "version" : "1",
+  "name" : "Tank temperatures"
+}
