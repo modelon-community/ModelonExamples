@@ -28,5 +28,5 @@ package Examples
 </p>
   
 <p>Additional aerospace content is available in the <a href=\"http://help.modelon.com/latest/verticals/use_cases_tutorials/\">tutorials</a> of Modelon Help Center.</p>
-</html>"),Icon(graphics = {Rectangle(lineColor={200,200,200},fillColor={248,248,248},fillPattern=FillPattern.HorizontalCylinder,extent={{-100.0,-100.0},{100.0,100.0}},radius=25.0),Rectangle(lineColor={128,128,128},extent={{-100.0,-100.0},{100.0,100.0}},radius=25.0),Bitmap(fileName="modelica://IndustryExamples/Resources/Images/Icons/Aerospace.png",origin={0,-4},extent={{-90,-75},{90,75}})})); 
+</html>")); 
 end Examples;
