@@ -3,10 +3,6 @@
   "format": "1.0.0",
   "dependencies": [
     {
-      "name": "IndustryExamples",
-      "versionSpecifier": "1.4.0"
-    },
-    {
       "name": "AirConditioning",
       "versionSpecifier": "1.27.0+build.116"
     },
@@ -21,6 +17,10 @@
     {
       "name": "EnvironmentalControl",
       "versionSpecifier": "3.16.0+build.40"
+    },
+    {
+      "name": "FuelCell",
+      "versionSpecifier": "1.18.0+build.57"
     },
     {
       "name": "FuelSystem",
@@ -67,8 +67,8 @@
       "versionSpecifier": "4.0.0"
     },
     {
-      "name": "FuelCell",
-      "versionSpecifier": "1.18.0+build.57"
+      "name": "IndustryExamples",
+      "versionSpecifier": "1.4.0+build.183"
     }
   ],
   "content": [
