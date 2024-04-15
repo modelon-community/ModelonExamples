@@ -4,6 +4,7 @@
   "dependencies": [
     {
       "name": "AirConditioning",
+
       "versionSpecifier": "1.27.0+build.116"
     },
     {
@@ -25,6 +26,7 @@
     {
       "name": "FuelSystem",
       "versionSpecifier": "5.5.0+build.54"
+
     },
     {
       "name": "HeatExchanger",
@@ -32,6 +34,7 @@
     },
     {
       "name": "Hydraulics",
+
       "versionSpecifier": "4.20.0+build.55"
     },
     {
@@ -45,6 +48,8 @@
     {
       "name": "Modelon",
       "versionSpecifier": "4.4.0+build.50"
+
+
     },
     {
       "name": "Pneumatics",
@@ -103,6 +108,7 @@
       "name": "MyPackage",
       "defaultDisabled": false,
       "id": "aaf79c4015114c198d25889ef9f62e4d"
+
     }
   ],
   "executionOptions": []
