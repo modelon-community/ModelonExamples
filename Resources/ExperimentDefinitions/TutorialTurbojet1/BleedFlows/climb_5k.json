@@ -1,0 +1,200 @@
+{
+  "version" : "2",
+  "id" : "e83f6659-eb81-4203-9da0-b165762ecd4a",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "JetPropulsion.A1_Simulate_single_point",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "interval" : 0.002,
+            "startTime" : 0,
+            "stopTime" : 1
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : false,
+            "ncp" : 500
+          },
+          "solverOptions" : {
+            "store_event_points" : true
+          },
+          "compilerOptions" : {
+            "c_compiler" : "gcc",
+            "generate_html_diagnostics" : false,
+            "include_protected_variables" : false
+          },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "steady state",
+          "parameters" : { },
+          "simulationOptions" : { },
+          "solverOptions" : {
+            "jacobian_calculation_mode" : 9,
+            "max_iter_no_jacobian" : 1,
+            "residual_equation_scaling" : 5,
+            "step_limit_factor" : 1,
+            "tolerance" : 1.0E-5
+          },
+          "compilerOptions" : {
+            "automatic_tearing" : true,
+            "c_compiler" : "gcc",
+            "divide_by_vars_in_tearing" : true,
+            "equation_sorting" : true,
+            "expose_scalar_equation_blocks_in_interactive_fmu" : true,
+            "generate_html_diagnostics" : false,
+            "hand_guided_tearing" : true,
+            "include_protected_variables" : false,
+            "index_reduction" : false,
+            "interactive_fmu" : true,
+            "local_iteration_in_tearing" : "annotation",
+            "merge_blt_blocks" : true,
+            "variability_propagation" : false
+          },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "JetPropulsion (A1): Simulate (single point)",
+          "parameters" : {
+            "design_name" : "sls"
+          },
+          "simulationOptions" : { },
+          "solverOptions" : {
+            "jacobian_calculation_mode" : 9,
+            "max_iter_no_jacobian" : 1,
+            "residual_equation_scaling" : 5,
+            "step_limit_factor" : 1,
+            "tolerance" : 1.0E-5
+          },
+          "compilerOptions" : {
+            "automatic_tearing" : true,
+            "c_compiler" : "gcc",
+            "divide_by_vars_in_tearing" : true,
+            "equation_sorting" : true,
+            "expose_scalar_equation_blocks_in_interactive_fmu" : true,
+            "generate_html_diagnostics" : false,
+            "hand_guided_tearing" : true,
+            "include_protected_variables" : false,
+            "index_reduction" : true,
+            "interactive_fmu" : true,
+            "local_iteration_in_tearing" : "annotation",
+            "merge_blt_blocks" : true,
+            "variability_propagation" : false
+          },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "JetPropulsion (A2): Simulate (single point, with stepping)",
+          "parameters" : {
+            "dMn" : 0.1,
+            "dalt" : 2000,
+            "ddTs" : 10,
+            "design_name" : "sls"
+          },
+          "simulationOptions" : { },
+          "solverOptions" : {
+            "jacobian_calculation_mode" : 9,
+            "max_iter_no_jacobian" : 1,
+            "residual_equation_scaling" : 5,
+            "step_limit_factor" : 1,
+            "tolerance" : 1.0E-5
+          },
+          "compilerOptions" : {
+            "automatic_tearing" : true,
+            "c_compiler" : "gcc",
+            "divide_by_vars_in_tearing" : true,
+            "equation_sorting" : true,
+            "expose_scalar_equation_blocks_in_interactive_fmu" : true,
+            "generate_html_diagnostics" : false,
+            "hand_guided_tearing" : true,
+            "include_protected_variables" : false,
+            "index_reduction" : true,
+            "interactive_fmu" : true,
+            "local_iteration_in_tearing" : "annotation",
+            "merge_blt_blocks" : true,
+            "variability_propagation" : false
+          },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "JetPropulsion.A1_Simulate_single_point",
+          "parameters" : {
+            "design_name" : "sls"
+          },
+          "simulationOptions" : { },
+          "solverOptions" : {
+            "jacobian_calculation_mode" : 9,
+            "max_iter_no_jacobian" : 1,
+            "residual_equation_scaling" : 5,
+            "step_limit_factor" : 1,
+            "tolerance" : 1.0E-5
+          },
+          "compilerOptions" : {
+            "automatic_tearing" : true,
+            "c_compiler" : "gcc",
+            "divide_by_vars_in_tearing" : true,
+            "equation_sorting" : true,
+            "expose_scalar_equation_blocks_in_interactive_fmu" : true,
+            "generate_html_diagnostics" : false,
+            "hand_guided_tearing" : true,
+            "include_protected_variables" : false,
+            "index_reduction" : true,
+            "interactive_fmu" : true,
+            "local_iteration_in_tearing" : "annotation",
+            "merge_blt_blocks" : true,
+            "variability_propagation" : false
+          },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "JetPropulsion.A2_Simulate_single_point_with_stepping",
+          "parameters" : {
+            "dMn" : 0.1,
+            "dalt" : 2000,
+            "ddTs" : 10,
+            "design_name" : "sls"
+          },
+          "simulationOptions" : { },
+          "solverOptions" : {
+            "jacobian_calculation_mode" : 9,
+            "max_iter_no_jacobian" : 1,
+            "residual_equation_scaling" : 5,
+            "step_limit_factor" : 1,
+            "tolerance" : 1.0E-5
+          },
+          "compilerOptions" : {
+            "automatic_tearing" : true,
+            "c_compiler" : "gcc",
+            "divide_by_vars_in_tearing" : true,
+            "equation_sorting" : true,
+            "expose_scalar_equation_blocks_in_interactive_fmu" : true,
+            "generate_html_diagnostics" : false,
+            "hand_guided_tearing" : true,
+            "include_protected_variables" : false,
+            "index_reduction" : true,
+            "interactive_fmu" : true,
+            "local_iteration_in_tearing" : "annotation",
+            "merge_blt_blocks" : true,
+            "variability_propagation" : false
+          },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ {
+          "name" : "settings_JPL.onDesign",
+          "expression" : "false"
+        }, {
+          "name" : "airData.Mn_par",
+          "expression" : "0.25"
+        }, {
+          "name" : "airData.alt_par",
+          "expression" : "1524.0000000000001670304"
+        } ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2024-04-10 10:37:29.224389269",
+    "lastModified" : "2024-04-10T11:00:27.006176544Z",
+    "name" : "Climb 5k"
+  }
+}
