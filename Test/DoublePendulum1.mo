@@ -1,6 +1,6 @@
 within Test;
 
-model DoublePendulum
+model DoublePendulum1
   "Simple double pendulum with two revolute joints and two bodies"
 
   extends .Modelica.Icons.Example;
@@ -58,4 +58,4 @@ object to <strong>false</strong> to switch off animation of all components.
 alt=\"model Examples.Elementary.DoublePendulum\">
 </blockquote>
 </html>"));
-end DoublePendulum;
+end DoublePendulum1;
