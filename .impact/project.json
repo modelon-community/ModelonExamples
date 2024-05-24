@@ -1,7 +1,24 @@
 {
   "name": "Gitdemo",
   "format": "1.0.0",
+  "version": "1.0.0",
   "dependencies": [
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
+    },
+    {
+      "name": "FuelCell",
+      "versionSpecifier": "1.17.0+build.31"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "VehicleDynamics",
+      "versionSpecifier": "4.3.0+build.66"
+    },
     {
       "name": "Modelica",
       "versionSpecifier": "4.0.0"
