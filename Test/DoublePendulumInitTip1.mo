@@ -1,6 +1,6 @@
 within Test;
 
-model DoublePendulumInitTip
+model DoublePendulumInitTip1
   "Demonstrate how to initialize a double pendulum so that its tip starts at a predefined position"
   extends .Modelica.Icons.Example;
   inner .Modelica.Mechanics.MultiBody.World world annotation (Placement(
@@ -89,4 +89,4 @@ In this example, it is simply done by <code>revolute2.phi.start&nbsp;=&nbsp;Mode
 <img src=\"modelica://Modelica/Resources/Images/Mechanics/MultiBody/Examples/Elementary/DoublePendulumInitTip.png\">
 </blockquote>
 </html>"));
-end DoublePendulumInitTip;
+end DoublePendulumInitTip1;
