@@ -8,11 +8,11 @@
     },
     {
       "name": "Electrification",
-      "versionSpecifier": "1.10.0+build.22"
+      "versionSpecifier": "2.1.0"
     },
     {
       "name": "Modelon",
-      "versionSpecifier": "4.3.0+build.20"
+      "versionSpecifier": "6.0.0"
     }
   ],
   "content": [
