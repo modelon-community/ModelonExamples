@@ -8,11 +8,11 @@
     },
     {
       "name": "Modelon",
-      "versionSpecifier": "4.3.0+build.20"
+      "versionSpecifier": "6.0.0"
     },
     {
       "name": "AirConditioning",
-      "versionSpecifier": "1.26.0+build.48"
+      "versionSpecifier": "2.0.0"
     }
   ],
   "content": [
