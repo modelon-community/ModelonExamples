@@ -8,11 +8,11 @@
     },
     {
       "name": "HeatExchanger",
-      "versionSpecifier": "2.11.0+build.18"
+      "versionSpecifier": "4.0.0"
     },
     {
       "name": "Modelon",
-      "versionSpecifier": "4.3.0+build.20"
+      "versionSpecifier": "6.0.0"
     }
   ],
   "content": [
