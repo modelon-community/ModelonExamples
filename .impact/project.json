@@ -8,11 +8,11 @@
     },
     {
       "name": "LiquidCooling",
-      "versionSpecifier": "2.11.0+build.30"
+      "versionSpecifier": "3.0.0"
     },
     {
       "name": "Modelon",
-      "versionSpecifier": "4.3.0+build.20"
+      "versionSpecifier": "6.0.0"
     }
   ],
   "content": [
