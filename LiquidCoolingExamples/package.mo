@@ -1,3 +1,3 @@
 package LiquidCoolingExamples     extends .Modelica.Icons.Package;
-    annotation(uses(Modelica(version = "4.0.0"),LiquidCooling(version = "3.0")));
+    annotation(uses(Modelica(version = "4.1.0"),LiquidCooling(version = "4.1")));
 end LiquidCoolingExamples;
