@@ -4,15 +4,15 @@
   "dependencies": [
     {
       "name": "Modelica",
-      "versionSpecifier": "4.0.0"
+      "versionSpecifier": "4.1.0"
     },
     {
       "name": "VaporCycle",
-      "versionSpecifier": "4.0.0"
+      "versionSpecifier": "6.0.0"
     },
     {
       "name": "Modelon",
-      "versionSpecifier": "6.0.0"
+      "versionSpecifier": "7.1.0"
     }
   ],
   "content": [
